@@ -1,0 +1,2 @@
+2, samsung, 58.0, 95, Processeur: jshm, RAM: 85Go, Taille Écran: 58.0 pouces
+2, susuki, 25.0, 95, Marque: iphone, Mémoire: 95Go, Caméra: 84MP

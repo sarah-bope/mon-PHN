@@ -1,0 +1,8 @@
+
+ID : 12, Nom : sarah, Prix : 14.0, Quantité : 15, Catégorie : Ordinateur
+ID : 2, Nom : lenovo, Prix : 100.0, Quantité : 25, Catégorie : Ordinateur
+ID: 5, Nom: rachel, Prix: 2.0, Quantité: 25
+ID: 3, Nom: rachel, Prix: 15.0, Quantité: 25, Marque: lenovo, Mémoire: 4Go, Caméra: 25MP
+ID: 5, Nom: sucre, Prix: 28.0, Quantité: 95, Marque: iphone, Mémoire: 64Go, Caméra: 47MP
+ID: 50, Nom: fhlf, Prix: 25.0, Quantité: 85, Marque: lbrsri, Mémoire: 25Go, Caméra: 24MP
+7, suspect, 29.0, 54, Marque: sper, Mémoire: 64Go, Caméra: 88MP
