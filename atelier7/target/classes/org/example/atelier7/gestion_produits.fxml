@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.atelier7.controllers.GestionProduitsController"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox alignment="CENTER" spacing="10" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">
+        <Label text="=== GESTION DES PRODUITS ===" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+        <Button text="Ajouter un produit" onAction="#handleAjouterProduit" />
+        <Button text="Lister tous les produits" onAction="#handleListerProduits"/>
+        <Button text="Modifier un produit" onAction="#handleModifierProduit"/>
+        <Button text="Supprimer un produit" onAction="#handleSupprimerProduit"/>
+        <Button text="Afficher par catégorie" onAction="#handleAfficherParCategorie"/>
+        <Button text="Retour" onAction="#handleRetour"/>
+    </VBox>
+
+</AnchorPane>

@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.atelier7.controllers.AfficherProduitsController"
+      spacing="10"
+      alignment="CENTER"
+      style="-fx-padding: 10;">
+
+    <TableView fx:id="produitTable" prefHeight="300">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="nomColumn" text="Nom" prefWidth="150"/>
+            <TableColumn fx:id="prixColumn" text="Prix (€)" prefWidth="100"/>
+            <TableColumn fx:id="quantiteColumn" text="Quantité" prefWidth="100"/>
+        </columns>
+    </TableView>
+</VBox>

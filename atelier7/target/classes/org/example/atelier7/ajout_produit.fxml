@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.atelier7.controllers.AjoutProduitController"
+      spacing="10" alignment="CENTER">
+
+    <Button text="Ajouter">
+        <VBox.margin>
+            <Insets top="10" right="0" bottom="0" left="0"/>
+        </VBox.margin>
+    </Button>
+
+    <TextField fx:id="nomField" promptText="Nom du produit" />
+    <TextField fx:id="prixField" promptText="Prix" />
+    <TextField fx:id="stockField" promptText="Quantité en stock" />
+    <ComboBox fx:id="categorieCombo" promptText="Catégorie" />
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Ajouter" onAction="#handleAjouter" />
+        <Button text="Annuler" onAction="#handleAnnuler" />
+    </HBox>
+
+</VBox>

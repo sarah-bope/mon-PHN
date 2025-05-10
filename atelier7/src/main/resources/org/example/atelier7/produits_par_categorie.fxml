@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.atelier7.ProduitsParCategorie"
+            prefHeight="400.0" prefWidth="600.0">
+    <top>
+        <HBox spacing="10" padding="10">
+            <Label text="Catégorie:" />
+            <ComboBox fx:id="categorieComboBox" promptText="Choisir une catégorie"/>
+            <Button text="Filtrer" onAction="#handleFiltrer"/>
+        </HBox>
+    </top>
+
+    <center>
+        <TableView fx:id="produitsTable" prefHeight="400" prefWidth="600">
+            <columns>
+                <TableColumn fx:id="idCol" text="ID"/>
+                <TableColumn fx:id="nomCol" text="Nom"/>
+                <TableColumn fx:id="prixCol" text="Prix"/>
+                <TableColumn fx:id="quantiteCol" text="Quantité"/>
+                <TableColumn fx:id="categorieCol" text="Catégorie"/>
+            </columns>
+        </TableView>
+    </center>
+
+</AnchorPane>

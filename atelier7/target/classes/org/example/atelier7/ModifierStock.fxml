@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.atelier7.controllers.ModifierStockController"
+            prefHeight="300.0" prefWidth="400.0">
+    <VBox xmlns:fx="http://javafx.com/fxml"
+          fx:controller="org.example.atelier7.controllers.ModifierStockController"
+          alignment="CENTER" spacing="10" padding="20">
+
+        <Label text="Modifier le stock d’un produit" />
+        <TextField fx:id="idField" promptText="ID du produit" />
+        <TextField fx:id="quantiteField" promptText="Nouvelle quantité" />
+        <Button text="Modifier" onAction="#handleModifierStock" />
+        <Label fx:id="messageLabel" />
+
+    </VBox>
+
+</AnchorPane>
